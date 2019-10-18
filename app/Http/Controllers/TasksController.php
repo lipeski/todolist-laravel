@@ -15,8 +15,8 @@ class TasksController extends Controller
     public function index()
     {
         $tasks = tasks::all();
-        $teste = "ai caralho";
-        return $teste;
+
+        return $tasks;
     }
 
     /**
@@ -37,7 +37,7 @@ class TasksController extends Controller
      */
     public function store(Request $request)
     {
-        //
+       //
     }
 
     /**
